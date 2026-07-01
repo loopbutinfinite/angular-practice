@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-user',
+  selector: 'user-profile',
   imports: [],
   templateUrl: './user.html',
   styleUrl: './user.css',
 })
 export class User {
-  username = "testUser1";
+  userName = ("pro_programmer_123");
 }
