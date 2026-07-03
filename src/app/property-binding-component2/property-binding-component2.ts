@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-property-binding-component2',
   imports: [],
   styleUrl: './property-binding-component2.css',
+  //To start the process of binding an HTML element's attribute to a property, we must encase the attribute in square brackets "[]".
   //This is binding the "contentEditable" attribute of the div to the class property of "isEditable" that has the value of true tied to it.
   //With the attribute bound to the class property, that has the value of true, this means that the div is now editable.
   template: `
