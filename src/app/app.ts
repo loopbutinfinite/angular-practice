@@ -14,10 +14,10 @@ import { LandingPageComponent } from './landing-page-component/landing-page-comp
   styleUrl: './app.css',
   template: `
     <h1>Practice with Angular</h1>
-    <!-- <app-event-handler-component></app-event-handler-component> -->
+    <app-landing-page-component></app-landing-page-component>
+    <app-event-handler-component></app-event-handler-component>
      <!-- <app-event-handler-button-component></app-event-handler-button-component>
        -->
-     <app-landing-page-component></app-landing-page-component>
 
   `,
 })

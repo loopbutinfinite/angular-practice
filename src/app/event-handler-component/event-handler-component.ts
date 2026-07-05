@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-event-handler-component',
   imports: [],
+  templateUrl: './event-handler-component.html',
   styleUrl: './event-handler-component.css',
-  template: `<section (mouseover)="displaySecretMessage()">There's a secret message hidden here, to uncover it. Hover you mouse over this sentence. {{message}}</section>`,
 })
 export class EventHandlerComponent {
   message = '';
