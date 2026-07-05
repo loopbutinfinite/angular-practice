@@ -1,1 +1,8 @@
-<p>iterating-component works!</p>
+<main class="bg-green-500 pb-10 pt-5">
+    <h1 class="text-center text-3xl font-bold">This is an iterating component using data.</h1>
+    <div class="pt-5 text-center">
+        @for(user of users; track user.id){
+            <p class="text-white font-bold">Name:{{user.name}}, Age: {{user.age}}</p>
+        }
+    </div>
+</main>

@@ -4,12 +4,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-iterating-component',
   imports: [],
+  templateUrl: './iterating-component.html',
   styleUrl: './iterating-component.css',
-  template: `
-  @for(user of users; track user.id){
-    <p>Name:{{user.name}}, Age: {{user.age}}</p>
-  }
-  `,
 })
 export class IteratingComponent {
   users = [
