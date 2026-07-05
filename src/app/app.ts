@@ -16,8 +16,8 @@ import { LandingPageComponent } from './landing-page-component/landing-page-comp
     <h1>Practice with Angular</h1>
     <app-landing-page-component></app-landing-page-component>
     <app-event-handler-component></app-event-handler-component>
-     <!-- <app-event-handler-button-component></app-event-handler-button-component>
-       -->
+     <app-event-handler-button-component></app-event-handler-button-component>
+      
 
   `,
 })
